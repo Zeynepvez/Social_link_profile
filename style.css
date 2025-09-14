@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+
+}
+.outside {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside {
+    background-color: rgba(128, 128, 128, 0.25);
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.github, .linkedin {
+    background-color: dimgrey;
+    width: 250px;
+    height: 45px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Verdana";
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.github:hover, .linkedin:hover {
+    color: greenyellow;
+    font-weight: bold;
+}
+.name {
+    color: white;
+    font-size: 1.6em;
+    font-family: "Verdana";
+    margin-bottom: 10px;
+}
+.city {
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 0.8em;
+    font-family: "Verdana";
+    margin-top: 0;
+}
+.description {
+    color: white;
+    font-size: 0.8em;
+    font-family: "Verdana";
+    text-align: center;
+}
+.attribution {
+    background-color: white;
+}
